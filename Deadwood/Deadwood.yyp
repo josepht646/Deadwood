@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0dff486e-b52c-4f64-ad92-ad9b589b165f",
+            "Value": {
+                "id": "a160f533-5d79-468a-a525-54ded36937d6",
+                "resourcePath": "objects\\obj_dialogueSpeaker\\obj_dialogueSpeaker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1cb2450d-be50-4d71-a951-e3a076e1fc20",
             "Value": {
                 "id": "2b8483f5-2acb-4f5e-98cb-988c639a3ae3",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "65300aff-1d95-4118-ac4c-fd9cae87287f",
+            "Value": {
+                "id": "e487e70e-45d9-4f93-8d3e-c8144bb4bb98",
+                "resourcePath": "views\\65300aff-1d95-4118-ac4c-fd9cae87287f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "65d3a4eb-ea79-4b33-8aae-9ecdeaf01910",
             "Value": {
                 "id": "84bf4fd9-fcd6-441d-9ee4-f46e8045d820",
@@ -172,6 +188,14 @@
                 "id": "128895cc-58b5-4bac-92ac-ce8f7154edf1",
                 "resourcePath": "objects\\obj_portal\\obj_portal.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d478959-dce2-4ba8-90a6-22dc8510da7e",
+            "Value": {
+                "id": "bfef8e42-c01a-4046-84d3-58f696b4c65f",
+                "resourcePath": "sprites\\spr_blackCircle\\spr_blackCircle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -284,6 +308,22 @@
                 "id": "bbc839c7-0317-4d93-8883-85383c261256",
                 "resourcePath": "sprites\\spr_deadTree\\spr_deadTree.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea706f11-67f5-4241-9f4d-d38baa6fab40",
+            "Value": {
+                "id": "0c3f04b9-eed6-4257-8ab2-08d9c3300d20",
+                "resourcePath": "sprites\\spr_dialogueBox\\spr_dialogueBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "edf60bab-87fb-47c4-b924-d797f57be73b",
+            "Value": {
+                "id": "1661e0cc-732e-4914-85ec-4c14c1518356",
+                "resourcePath": "objects\\obj_dialogueText\\obj_dialogueText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
