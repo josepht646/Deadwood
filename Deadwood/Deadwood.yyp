@@ -66,7 +66,7 @@
             "Key": "1cb2450d-be50-4d71-a951-e3a076e1fc20",
             "Value": {
                 "id": "2b8483f5-2acb-4f5e-98cb-988c639a3ae3",
-                "resourcePath": "objects\\objArcher\\objArcher.yy",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
             }
         },
