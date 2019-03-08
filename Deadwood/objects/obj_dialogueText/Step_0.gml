@@ -10,7 +10,7 @@ x = objPlayer.x + xHUD;
 y = objPlayer.y + yHUD;
 
 
-if(text != "" && textTimer = 0){
+if(text != "" && textTimer = 0 && !textPaused){
 	textTimer = displayTime;
 	event_user(1);
 	lineDisplayCycles = ceil(ds_list_size(lines)/lineDisplayLimit);
@@ -20,16 +20,22 @@ if(text != "" && textTimer = 0){
 if(textTimer > 0){ 
 	textTimer--;
 	if(textTimer == 0){
-		lineDisplayCycles--;
-		if(lineDisplayCycles == 0){
-			text = "";
-			obj_dialogueSpeaker.sprite_index = spr_blackCircle;
-			ds_list_destroy(lines);
-			linesInitialized = false;
-		} else {
-			textTimer = displayTime;
-			topLine += lineDisplayLimit;
-		}
+		textPaused = true;
 	}
 }
+
+if(textPaused && keyboard_check(vk_enter)){
+	lineDisplayCycles--;
+	if(lineDisplayCycles == 0){
+		text = "";
+		obj_dialogueSpeaker.sprite_index = spr_blackCircle;
+		ds_list_destroy(lines);
+		linesInitialized = false;
+	} else {
+		textTimer = displayTime;
+		topLine += lineDisplayLimit;
+	}
+	textPaused = false;
+}
+
 

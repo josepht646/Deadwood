@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "660d30cb-bb34-4bc8-aadb-8092774cee99",
+            "Value": {
+                "id": "635449b3-f4e2-449d-91cf-3403c8e3f7d7",
+                "resourcePath": "objects\\obj_sign_tutorial2\\obj_sign_tutorial2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6a53605c-73ed-4fbf-b3ea-aaaa57df130e",
             "Value": {
                 "id": "79df47ea-34a7-4322-b89d-33739ad87885",

@@ -8,7 +8,8 @@
         "0dff486e-b52c-4f64-ad92-ad9b589b165f",
         "81ee4da0-a5e8-4579-9ed8-55708ec569fa",
         "dc4024de-c3da-4fe4-96d3-769dafd07e0b",
-        "84e4f565-4fa4-46ed-bfe8-4922e4b0dd20"
+        "84e4f565-4fa4-46ed-bfe8-4922e4b0dd20",
+        "660d30cb-bb34-4bc8-aadb-8092774cee99"
     ],
     "filterType": "GMObject",
     "folderName": "Dialogue Objects",
