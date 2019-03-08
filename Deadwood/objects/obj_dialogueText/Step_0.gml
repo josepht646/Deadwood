@@ -6,6 +6,10 @@
 //lineChars: The maximum number of characters that can fit on a single line.
 //lineSpacing: The vertical distance in pixles from the top of one line of text to the top of the next line.
 
+x = objPlayer.x + xHUD;
+y = objPlayer.y + yHUD;
+
+
 if(text != "" && textTimer = 0){
 	textTimer = displayTime;
 	event_user(1);

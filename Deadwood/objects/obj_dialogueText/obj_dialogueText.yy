@@ -201,6 +201,34 @@
             "value": "0",
             "varName": "topLine",
             "varType": 0
+        },
+        {
+            "id": "2d2d4618-e222-475e-a46d-ae600ebe4802",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-320",
+            "varName": "xHUD",
+            "varType": 0
+        },
+        {
+            "id": "3f395ae7-0750-49e2-b6a9-6da9426750d9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "160",
+            "varName": "yHUD",
+            "varType": 0
         }
     ],
     "solid": false,
