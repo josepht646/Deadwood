@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "8495beda-9afe-4633-834a-8000d699241f",
+            "Value": {
+                "id": "6d8b5d80-eea7-40be-8d56-e7e3d53bd2b5",
+                "resourcePath": "objects\\objZombie1\\objZombie1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "84e4f565-4fa4-46ed-bfe8-4922e4b0dd20",
             "Value": {
                 "id": "79011db9-619a-4281-80c0-ce9b0dd70c8a",
