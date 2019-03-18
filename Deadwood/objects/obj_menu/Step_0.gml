@@ -23,7 +23,13 @@ if (room == room_menu) {
 		}
 	}
 
+<<<<<<< HEAD
 } else if (room == room_selection) {
+=======
+}
+
+if (room == room_selection) {
+>>>>>>> 9bf3aba142072a2aae7decfe26f0922323234d87
 
 	if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"))) {
 		if (stage != 1) {
@@ -53,8 +59,11 @@ if (room == room_menu) {
 		room_goto(room_menu);
 	}
 
+<<<<<<< HEAD
 } else {
 	if (keyboard_check_pressed(vk_escape)) {
 		room = room_menu
 	}
+=======
+>>>>>>> 9bf3aba142072a2aae7decfe26f0922323234d87
 }

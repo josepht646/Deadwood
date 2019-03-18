@@ -13,10 +13,16 @@ if (obj_characterInfo.character == 1) {
 }
 if (obj_characterInfo.character == 2) {
 	sprite_index = sprSwordAnimation;
+<<<<<<< HEAD
 	image_angle = objPlayer.image_angle;
 	alarm_set(0,obj_characterInfo.attackDelay);
 }
 if (obj_characterInfo.character == 3) {
 	sprite_index = sprSpell;
 	image_angle = objPlayer.image_angle + 90;
+=======
+}
+if (obj_characterInfo.character == 3) {
+	sprite_index = sprSpell;
+>>>>>>> 9bf3aba142072a2aae7decfe26f0922323234d87
 }
