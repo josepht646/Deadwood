@@ -6,7 +6,9 @@
     "children": [
         "fb36d323-00b2-4d38-940a-39143859fc20",
         "dfc26070-6c2b-44e0-9cd2-84c19de39c5e",
-        "46837043-613c-4fe8-a2e9-4d670efa6d6d"
+        "46837043-613c-4fe8-a2e9-4d670efa6d6d",
+        "703b282d-be96-40d8-8b21-61f32a233ba1",
+        "70939f3c-6439-473b-b14a-4fc86a675450"
     ],
     "filterType": "GMSprite",
     "folderName": "archerSprites",
