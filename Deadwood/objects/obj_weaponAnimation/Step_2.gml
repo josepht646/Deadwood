@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 if (obj_characterInfo.character == 1 || obj_characterInfo.character == 3) {
 	x += lengthdir_x(moveSpeed, image_angle-90);
 	y += lengthdir_y(moveSpeed, image_angle-90);
@@ -13,7 +12,3 @@ if (obj_characterInfo.character == 2) {
 	y = objPlayer.y + lengthdir_y(distance, objPlayer.image_angle + angle);
 	image_angle = objPlayer.image_angle;
 }
-=======
-x += lengthdir_x(moveSpeed, image_angle-90);
-y += lengthdir_y(moveSpeed, image_angle-90);
->>>>>>> 9bf3aba142072a2aae7decfe26f0922323234d87

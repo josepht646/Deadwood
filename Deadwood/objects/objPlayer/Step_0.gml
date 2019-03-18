@@ -24,7 +24,6 @@ if (keyboard_check(ord("S")) || keyboard_check(vk_down)) {
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 //Have character fight
-<<<<<<< HEAD
 if (fighting == 0 && mouse_check_button_pressed(mb_left) && weapon == 1) {
 	if (obj_characterInfo.character == 1) {
 		fighting = 1;
@@ -60,11 +59,5 @@ if (fighting == 0 && mouse_check_button_pressed(mb_left) && weapon == 1) {
 		var xpos = x + lengthdir_x(distance, image_angle + angle);
 		var ypos = y + lengthdir_y(distance, image_angle + angle);
 		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimation);
-=======
-if (fighting == 0 && mouse_check_button(mb_left) && weapon == 1) {
-	if (obj_characterInfo.character == 1) {
-		fighting = 1;
-		instance_create_layer(x,y,"Instances",obj_weaponAnimation);
->>>>>>> 9bf3aba142072a2aae7decfe26f0922323234d87
 	}
 }

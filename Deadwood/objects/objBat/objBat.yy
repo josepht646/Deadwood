@@ -4,7 +4,6 @@
     "mvc": "1.0",
     "name": "objBat",
     "eventList": [
-<<<<<<< HEAD
         {
             "id": "4df52193-f157-4ed1-a096-baa213d06ee8",
             "modelName": "GMEvent",
@@ -45,9 +44,6 @@
             "eventtype": 2,
             "m_owner": "9345f58d-7df7-4682-b180-0462e6560df3"
         }
-=======
-        
->>>>>>> 9bf3aba142072a2aae7decfe26f0922323234d87
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

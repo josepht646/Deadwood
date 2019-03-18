@@ -10,11 +10,8 @@ hp = 100;
 xp = 0;
 level = 0;
 gold = 0;
-<<<<<<< HEAD
 lvlUpCost = 100;
 potions = 0;
 meleeDamage = 2;
 
 attackDelay = -1;
-=======
->>>>>>> 9bf3aba142072a2aae7decfe26f0922323234d87
