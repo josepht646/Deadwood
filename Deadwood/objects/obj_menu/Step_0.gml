@@ -47,6 +47,7 @@ if (room == room_menu) {
 		if (stage == 3) {
 			obj_characterInfo.character = 3;
 		}
+		player_created = false;
 		room_goto(room_tutorial);
 	}
 	if (keyboard_check_pressed(vk_escape)) {

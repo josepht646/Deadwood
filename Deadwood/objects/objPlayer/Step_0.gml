@@ -1,6 +1,8 @@
 //Make object visable
 depth = -100;
-
+if (obj_menu.player_created == false) {
+	event_user(0);
+}
 //Move character with animation
 sprite_set_speed(sprite_index,0,spritespeed_framespersecond);
 if (keyboard_check(ord("A")) || keyboard_check(vk_left)) {
