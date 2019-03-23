@@ -18,6 +18,12 @@ if (room == room_menu) {
 			xPos = 50;
 			yPos = 500;
 		}
+		if (stage == 2) {
+			room_goto(room_controls);	
+		}
+		if (stage == 3) {
+			room_goto(room_credits);
+		}
 		if (stage == 4) {
 			game_end();
 		}
@@ -47,7 +53,6 @@ if (room == room_menu) {
 		if (stage == 3) {
 			obj_characterInfo.character = 3;
 		}
-		player_created = false;
 		room_goto(room_tutorial);
 	}
 	if (keyboard_check_pressed(vk_escape)) {
