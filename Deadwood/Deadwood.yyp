@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0b547ca5-0603-4062-9c9a-1410d6815b53",
+            "Value": {
+                "id": "eb1e11f0-3acb-4d28-9002-699efcec9db7",
+                "resourcePath": "sprites\\sprZombieF\\sprZombieF.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0cc04e68-442f-4c91-8ecf-1233ac5dd8e3",
             "Value": {
                 "id": "e80d34a8-5107-4ece-ae73-b5cf8d140814",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "817d67fa-9277-4971-9720-286b624affd3",
                 "resourcePath": "sprites\\sprBatDamage\\sprBatDamage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1a356709-6180-46bf-aa8e-2ad02e2499a3",
+            "Value": {
+                "id": "bd814fcd-d26b-472d-baa3-5c0f0185a46d",
+                "resourcePath": "sprites\\sprDemonKnightF\\sprDemonKnightF.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "46fe3160-bd3c-47c1-a179-ec7ac2e7d672",
+            "Value": {
+                "id": "0f44f9e0-5bb7-424b-95a6-08cf36859509",
+                "resourcePath": "sprites\\sprDemonSwordSlash\\sprDemonSwordSlash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47442bcd-dae6-4dd6-aa3c-c40fbbdccf6c",
             "Value": {
                 "id": "aed95577-17de-46d6-bbbd-87b3bc2dd8f3",
@@ -367,14 +391,6 @@
             }
         },
         {
-            "Key": "507f8bba-48a3-4215-b606-2e1814fdcf62",
-            "Value": {
-                "id": "8b812950-3632-42ae-adbf-554dcf6ecd14",
-                "resourcePath": "sprites\\sprZombie1\\sprZombie1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "55f0f71a-bf4b-4817-b444-138f1d2c8a93",
             "Value": {
                 "id": "21862ba6-a0a1-4d91-b904-6c22820d0a36",
@@ -420,14 +436,6 @@
                 "id": "635449b3-f4e2-449d-91cf-3403c8e3f7d7",
                 "resourcePath": "objects\\obj_sign_tutorial2\\obj_sign_tutorial2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "67380683-a15a-4e62-bbcb-02864eb077f6",
-            "Value": {
-                "id": "92eee90e-2a71-4792-9c5f-54aa2e1be6eb",
-                "resourcePath": "sprites\\sprDemonKnight1\\sprDemonKnight1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -591,6 +599,14 @@
             }
         },
         {
+            "Key": "8d90656f-18b6-4ed6-8769-3c2f9aad46ac",
+            "Value": {
+                "id": "4816970c-79d8-4330-b145-55520453c29c",
+                "resourcePath": "sprites\\sprDemonArcherWCBWA\\sprDemonArcherWCBWA.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8dc0338f-7267-4e92-ae90-ca79d81679f4",
             "Value": {
                 "id": "836432de-93b6-4f5b-b4f4-bb873157efd9",
@@ -676,6 +692,14 @@
                 "id": "33ad2f5b-daf5-4a90-b64d-de6e6c82af48",
                 "resourcePath": "rooms\\deathRoom\\deathRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a513ea73-2878-4440-b438-0776b2d0595d",
+            "Value": {
+                "id": "cd381e92-3f00-45cf-b1d9-4260c7b21519",
+                "resourcePath": "sprites\\sprDemonArrow\\sprDemonArrow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
