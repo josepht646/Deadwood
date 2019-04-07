@@ -13,6 +13,8 @@ if (obj_characterInfo.character == 3) {
 	sprite_index = sprWizard;
 }
 obj_menu.player_created = true;
-//x = 560;
-//y = 1184;
+x = 560;
+y = 1184;
+weapon = 0;
+fighting = 0;
 image_angle = 0;

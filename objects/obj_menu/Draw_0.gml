@@ -110,6 +110,7 @@ if (room == room_credits) {
 	draw_text(400, 425, "Mark Baldwin");
 	draw_text(400, 500, "Daniel Wachter");
 	draw_text(400, 575, "ak9.picdn.net");
+	draw_text(230, 650, "Doug Maxwell/Media Right Productions");
 	
 	draw_text(375, room_height-50, "Escape to Return");
 
