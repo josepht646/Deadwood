@@ -4,5 +4,7 @@ if (sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) < 400) {
 }
 
 if (healthValue <= 0) {
+	obj_characterInfo.xp+=10;
+	
 	instance_destroy();
 }

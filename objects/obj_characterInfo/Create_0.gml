@@ -6,12 +6,13 @@ Character 3 = Wizard
 */
 weapon = 0;
 //weapon 0 = no weapon		weapon 1 = weapon
-hp = 100;
+hp = 0;
+hpLvl = 0;
 xp = 0;
 level = 0;
 gold = 0;
 lvlUpCost = 100;
 potions = 0;
-meleeDamage = 2;
-
+meleeDamage = 0;
+mainDamage = 0;
 attackDelay = -1;
