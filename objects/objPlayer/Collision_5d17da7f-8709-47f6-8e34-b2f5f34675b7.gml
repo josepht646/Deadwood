@@ -1,5 +1,5 @@
 if (counter > 64) {
-	obj_characterInfo.hp--;
+	obj_characterInfo.hp = obj_characterInfo.hp - 10;
 	counter = 0;
 }
 if(obj_characterInfo.hp < 2 && room != deathRoom){

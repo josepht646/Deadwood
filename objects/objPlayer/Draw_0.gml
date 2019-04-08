@@ -6,7 +6,7 @@ draw_sprite(spr_HealthBorder,1, x - 100,y - 250);
 draw_sprite_ext(spr_HealthBar1, 1, x - 100,y - 250, obj_characterInfo.hp/obj_characterInfo.hpLvl,1, 0, c_white, 1);
 //XP/Level Display
 draw_sprite(spr_XP1, 1, x-160, y-205);
-if(obj_characterInfo.xp == obj_characterInfo.lvlUpCost){
+if(obj_characterInfo.xp >= obj_characterInfo.lvlUpCost){
 	obj_characterInfo.xp = 0;
 	obj_characterInfo.level++;
 	obj_characterInfo.hpLvl +=10;

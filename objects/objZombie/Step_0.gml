@@ -1,7 +1,7 @@
 if (movement == true) {
 	if (sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) < 500 && sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) > 64) {
-		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y) - 90;
-		mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed,obj_deadTree);
+		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+		mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
 	}
 } else {
 	playerdirection = point_direction(x,y,objPlayer.x,objPlayer.y)
@@ -10,7 +10,7 @@ if (movement == true) {
 }
 
 if (healthValue <= 0) {
-	obj_characterInfo.xp+=10;
+	obj_characterInfo.xp+=25;
 	
 	instance_destroy();
 }

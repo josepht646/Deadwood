@@ -10,7 +10,7 @@ yDown = y+270;
 if (obj_characterInfo.character == 1) {
 	sprite_index = sprSwordAnimation;
 	image_angle = objPlayer.image_angle;
-	alarm_set(0,obj_characterInfo.attackDelay);
+	alarm_set(0,50);
 }
 if (obj_characterInfo.character == 2) {
 	sprite_index = sprSword;
