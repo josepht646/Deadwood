@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "18fe9f0b-e469-4d12-a724-2abb5abb556e",
+            "Value": {
+                "id": "1fc89199-1e7c-4f97-8a5a-2d051be3368e",
+                "resourcePath": "views\\18fe9f0b-e469-4d12-a724-2abb5abb556e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "19eec460-932f-4f03-a609-d89dcf4b41ee",
             "Value": {
                 "id": "817d67fa-9277-4971-9720-286b624affd3",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "632a3389-952c-4860-98f9-3c9c7527092e",
+            "Value": {
+                "id": "634c4202-6bee-4c55-be83-b28dee785a32",
+                "resourcePath": "views\\632a3389-952c-4860-98f9-3c9c7527092e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "65300aff-1d95-4118-ac4c-fd9cae87287f",
             "Value": {
                 "id": "e487e70e-45d9-4f93-8d3e-c8144bb4bb98",
@@ -564,6 +580,14 @@
                 "id": "0d1218ae-e7bb-4125-850b-08de29ac3976",
                 "resourcePath": "objects\\objZombie\\objZombie.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "717a35de-aff3-467d-880f-6ca2174692db",
+            "Value": {
+                "id": "fa446446-3207-4922-af14-a59bae1c1f92",
+                "resourcePath": "sprites\\sprKnockback\\sprKnockback.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -715,6 +739,14 @@
             "Value": {
                 "id": "f09dd292-4395-45b4-b2da-acf906429d70",
                 "resourcePath": "objects\\obj_Music\\obj_Music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9c9744a3-17c6-425a-ba01-c2d0166467cb",
+            "Value": {
+                "id": "caff0060-0239-41e9-8fe5-17874092b5b9",
+                "resourcePath": "objects\\obj_weaponAnimationSec\\obj_weaponAnimationSec.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -916,6 +948,14 @@
                 "id": "49867d65-65b8-4923-90a9-ddc042c06599",
                 "resourcePath": "sprites\\spr_roof3\\spr_roof3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3e5fcad-b41f-4a6f-9ae8-cd9ffbeb5271",
+            "Value": {
+                "id": "2bc8f5b5-b276-40d4-a034-28bb138cc73a",
+                "resourcePath": "views\\d3e5fcad-b41f-4a6f-9ae8-cd9ffbeb5271.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

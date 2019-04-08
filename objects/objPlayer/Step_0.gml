@@ -63,3 +63,42 @@ if (fighting == 0 && mouse_check_button_pressed(mb_left) && weapon == 1) {
 		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimation);
 	}
 }
+
+//Have character fight
+if (fighting == 0 && mouse_check_button_pressed(mb_right) && weapon == 1) {
+	if (obj_characterInfo.character == 1) {
+		fighting = 1;
+		sprite_index = sprArcher;
+		alarm_set(0,obj_characterInfo.attackDelay);
+		var delta_x = 30;
+		var delta_y = 00;
+		var angle = point_direction(0, 0, delta_x, delta_y);
+		var distance = point_distance(0, 0, delta_x, delta_y);
+		var xpos = x + lengthdir_x(distance, image_angle + angle);
+		var ypos = y + lengthdir_y(distance, image_angle + angle);
+		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimationSec);
+	}
+	if (obj_characterInfo.character == 2) {
+		fighting = 1;
+		sprite_index = sprKnight
+		alarm_set(0,obj_characterInfo.attackDelay);
+		var delta_x = 45;
+		var delta_y = 30;
+		var angle = point_direction(0, 0, delta_x, delta_y);
+		var distance = point_distance(0, 0, delta_x, delta_y);
+		var xpos = x + lengthdir_x(distance, image_angle + angle);
+		var ypos = y + lengthdir_y(distance, image_angle + angle);
+		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimationSec);
+	}
+	if (obj_characterInfo.character == 3) {
+		fighting = 1;
+		alarm_set(0,obj_characterInfo.attackDelay);
+		var delta_x = 30;
+		var delta_y = 0;
+		var angle = point_direction(0, 0, delta_x, delta_y);
+		var distance = point_distance(0, 0, delta_x, delta_y);
+		var xpos = x + lengthdir_x(distance, image_angle + angle);
+		var ypos = y + lengthdir_y(distance, image_angle + angle);
+		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimationSec);
+	}
+}
