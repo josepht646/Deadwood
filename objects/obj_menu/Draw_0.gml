@@ -2,13 +2,11 @@
 //https://www.deviantart.com/danielwachter/art/The-Ritual-311882956
 //https://ak9.picdn.net/shutterstock/videos/28038799/thumb/1.jpg
 
-
 if (room == room_menu) {
 	
 	draw_set_alpha(1);
 
 	draw_sprite_ext(spr_selection, 0, xPos, yPos, 5, 1, 0, -1, 0.5);
-
 
 	//Draw Title
 	draw_set_font(font_title);
@@ -28,6 +26,8 @@ if (room == room_menu) {
 }
 
 if (room == room_selection) {
+	
+	draw_sprite_ext(spr_selection, 0, xPos+40, yPos+25, 5, 1, 0, -1, 0.5);
 	
 	//Draw Title
 	draw_set_font(font_title);
@@ -67,15 +67,15 @@ if (room == room_controls) {
 
 	//Draw menu items
 	draw_text(150, 150, "Main Attack:");
-	draw_text(400, 150, "Left Mouse Button");
+	draw_text(500, 150, "Left Mouse Button");
 	draw_text(150, 225, "Secondary Attack:");
-	draw_text(400, 225, "Right Mouse Button (Not Implemented)");
+	draw_text(500, 225, "Right Mouse Button");
 	draw_text(150, 300, "Move:");
-	draw_text(400, 300, "Arrow Keys/WASD");
+	draw_text(500, 300, "Arrow Keys/WASD");
 	draw_text(150, 375, "Interact:");
-	draw_text(400, 375, "R");
+	draw_text(500, 375, "R");
 	draw_text(150, 450, "Return to Menu:");
-	draw_text(400, 450, "Escape");
+	draw_text(500, 450, "Escape");
 	
 	draw_text(350, room_height-50, "Escape to Return");
 

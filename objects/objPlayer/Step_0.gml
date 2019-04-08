@@ -103,4 +103,5 @@ if (fighting == 0 && mouse_check_button_pressed(mb_right) && weapon == 1) {
 	}
 }
 
+//Increment counter for enemy attacks
 counter++;

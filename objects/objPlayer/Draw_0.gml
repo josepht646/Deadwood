@@ -18,10 +18,12 @@ if(obj_characterInfo.xp >= obj_characterInfo.lvlUpCost){
 draw_sprite_ext(spr_XP, 1, x - 160,y - 205, 1,obj_characterInfo.xp/obj_characterInfo.lvlUpCost, 0, c_white, 1);
 draw_set_color(c_white);
 draw_text(x - 140,y - 250,string(obj_characterInfo.level));
+
 //Display Gold
 draw_sprite(spr_Gold, 1, x-400, y+200);
 draw_set_color(c_white);
 draw_text(x - 370,y + 200,"X " + string(obj_characterInfo.gold));
+
 //Display Potions
 draw_sprite(spr_Potion, 1, x+350, y+200);
 draw_set_color(c_white);
