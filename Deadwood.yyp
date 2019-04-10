@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1af815e9-9a43-4731-9571-00c6e14fc034",
+            "Value": {
+                "id": "31a5b681-04ef-4d0d-8a4c-d54aabf3ac89",
+                "resourcePath": "objects\\obj_brick\\obj_brick.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b95c161-e5d1-4b65-92fb-00b37e0fb59e",
             "Value": {
                 "id": "223ecf9c-d933-4d45-911a-9957e624411d",
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "57829401-b71c-48fe-8fdc-61e09827027d",
+            "Value": {
+                "id": "91e6731d-2e5b-4d62-aa2f-9affa2275633",
+                "resourcePath": "sprites\\spr_brick\\spr_brick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b07ffc6-7823-4188-b8a0-59fd4b9df869",
             "Value": {
                 "id": "b1c4bcb5-09aa-4f37-8c6b-a2ddbcff4b1d",
@@ -524,6 +540,14 @@
                 "id": "79df47ea-34a7-4322-b89d-33739ad87885",
                 "resourcePath": "views\\6a53605c-73ed-4fbf-b3ea-aaaa57df130e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a9d10af-ac53-4965-b0c7-a2801a5564df",
+            "Value": {
+                "id": "f0158375-4226-48e6-b0cc-ebe5ac6c73da",
+                "resourcePath": "sprites\\spr_stone\\spr_stone.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -892,6 +916,14 @@
                 "id": "c0b2938c-b95f-4cad-ac52-8eb44bb3d515",
                 "resourcePath": "objects\\obj_deadTree\\obj_deadTree.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be36c5c8-83b1-4f59-a524-e756f977ed12",
+            "Value": {
+                "id": "1c899524-ecc2-4a37-a279-46be57aa4dc8",
+                "resourcePath": "rooms\\room_boss\\room_boss.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
