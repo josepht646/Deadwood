@@ -1,4 +1,4 @@
 movement = true;
 
-healthValue = 200;
+healthValue = 120;
 enemySpeed = 2;
