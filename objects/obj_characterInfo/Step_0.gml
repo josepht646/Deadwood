@@ -1,9 +1,9 @@
 if (character == 1) {
-	attackDelay = 100;	
+	attackDelay = objPlayer.attackDelay;	
 }
 if (character == 2) {
-	attackDelay = 25;	
+	attackDelay = objPlayer.attackDelay;	
 }
 if (character == 3) {
-	attackDelay = 100;	
+	attackDelay = objPlayer.attackDelay;		
 }

@@ -103,5 +103,17 @@ if (fighting == 0 && mouse_check_button_pressed(mb_right) && weapon == 1) {
 	}
 }
 
+if (keyboard_check_pressed(ord("N"))) {
+	obj_characterInfo.xp+=100;
+}
+
+if (keyboard_check_pressed(ord("M"))) {
+	global.mainQuestStage++;
+}
+
 //Increment counter for enemy attacks
 counter++;
+
+if (attackDelay <= 5) {
+	attackDelay = 5;	
+}

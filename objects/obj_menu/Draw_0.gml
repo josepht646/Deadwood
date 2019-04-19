@@ -44,9 +44,27 @@ if (room == room_selection) {
 	draw_text(1050, 150, "Marmaduc");
 
 	//Draw sprites
-	draw_sprite_ext(sprArcherWCBD, 0, 300, 400, 4, 4, 0, -1, 1);
-	draw_sprite_ext(sprKnightWS, 0, 700, 400, 4, 4, 0, -1, 1);
-	draw_sprite_ext(sprWizardWS, 0, 1100, 400, 4, 4, 0, -1, 1);
+	draw_sprite_ext(sprArcherWCBD, 0, 275, 300, 2, 2, 0, -1, 1);
+	draw_sprite_ext(sprKnightWS, 0, 675, 300, 2, 2, 0, -1, 1);
+	draw_sprite_ext(sprWizardWS, 0, 1100, 300, 2, 2, 0, -1, 1);
+	
+	draw_text(200, 400, "Main Attack: CrossBow");
+	draw_text(200, 450, "Secondary Attack: Dagger");
+	draw_text(200, 500, "Health: 100");
+	draw_text(200, 550, "Main Damage: 5");
+	draw_text(200, 600, "Secondary Damage: 2");
+	
+	draw_text(600, 400, "Main Attack: Sword");
+	draw_text(600, 450, "Secondary Attack: Throw Sword");
+	draw_text(600, 500, "Health: 150");
+	draw_text(600, 550, "Main Damage: 7");
+	draw_text(600, 600, "Secondary Damage: 3");
+	
+	draw_text(1000, 400, "Main Attack: FireBall");
+	draw_text(1000, 450, "Secondary Attack: KnockBack");
+	draw_text(1000, 500, "Health: 75");
+	draw_text(1000, 550, "Main Damage: 10");
+	draw_text(1000, 600, "Secondary Damage: 1");
 	
 	draw_text(xPos, yPos, "Select");
 	

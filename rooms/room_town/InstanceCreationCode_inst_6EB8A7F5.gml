@@ -1,3 +1,3 @@
-targetRoom = room_level_2;
-targetX = 672;
-targetY = 708;
+targetRoom = room_boss;
+targetX = 656;
+targetY = 1568;

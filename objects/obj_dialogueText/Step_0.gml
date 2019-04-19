@@ -6,8 +6,18 @@
 //lineChars: The maximum number of characters that can fit on a single line.
 //lineSpacing: The vertical distance in pixles from the top of one line of text to the top of the next line.
 
-x = objPlayer.x + xHUD;
-y = objPlayer.y + yHUD;
+if (room != room_boss) {
+	x = objPlayer.x + xHUD;
+	y = objPlayer.y + yHUD;
+} else {
+	if (obj_boss_fight.display_gui) {
+		x = 5000;
+		y = 5000;
+	} else {
+		x = objPlayer.x + xHUD;
+		y = objPlayer.y + yHUD;
+	}
+}
 
 
 if(text != "" && textTimer = 0 && !textPaused){

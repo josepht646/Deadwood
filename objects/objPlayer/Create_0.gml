@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 spd = 4;
 weapon = 0;
 fighting = 0;
@@ -15,7 +13,7 @@ if (obj_characterInfo.character == 1) {
 
 if (obj_characterInfo.character == 2) {
 	sprite_index = sprKnight;
-	attackDelay = 50;
+	attackDelay = 25;
 	obj_characterInfo.hp = 150;
 	obj_characterInfo.hpLvl = 150;
 	obj_characterInfo.mainDamage = 7;
