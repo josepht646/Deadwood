@@ -123,6 +123,14 @@ if(room == room_town and obj_characterInfo.hp<obj_characterInfo.hpLvl){
 		counter2 = 0;
 	}
 }
+if(room == room_town){
+	if(audio_is_playing(zombieSnarls)){
+		audio_stop_sound(zombieSnarls);
+	}
+	if(audio_is_playing(batSnarl)){
+		audio_stop_sound(batSnarl);
+	}
+}
 	
 
 //Increment counter for enemy attacks

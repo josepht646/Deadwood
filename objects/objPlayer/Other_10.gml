@@ -18,3 +18,5 @@ y = 1184;
 weapon = 0;
 fighting = 0;
 image_angle = 0;
+audio_stop_all();
+audio_play_sound(lostInForest,1,true);
