@@ -125,9 +125,12 @@ if (room == room_credits) {
 	draw_set_font(font_menu);
 	draw_set_alpha(1);
 	
-	draw_text(400, 425, "Mark Baldwin");
-	draw_text(400, 500, "Daniel Wachter");
-	draw_text(400, 575, "ak9.picdn.net");
+	draw_text(100, 425, "Mark Baldwin");
+	draw_text(700, 425, "Kevin Maclead");
+	draw_text(100, 500, "Daniel Wachter");
+	draw_text(700, 500, "Audionautix");
+	draw_text(100, 575, "ak9.picdn.net");
+	draw_text(700, 575, "CSM");
 	draw_text(230, 650, "Doug Maxwell/Media Right Productions");
 	
 	draw_text(375, room_height-50, "Escape to Return");

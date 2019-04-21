@@ -14,11 +14,18 @@ if (room != room_boss) {
 		speed = 1;
 	}
 } else {
-	image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
-	if (room = room_level_2) {
-		mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
+	if (movement == true) {
+		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+		if (room = room_level_2) {
+			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
+		} else {
+			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+		}
 	} else {
-		mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+		playerdirection = point_direction(x,y,objPlayer.x,objPlayer.y)
+		direction = playerdirection+180
+		speed = 1;
+
 	}
 }
 
