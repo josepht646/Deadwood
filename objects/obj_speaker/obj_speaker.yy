@@ -1,18 +1,38 @@
 {
-    "id": "dc4024de-c3da-4fe4-96d3-769dafd07e0b",
+    "id": "8de9f6b6-28ed-43c9-a86d-2a9672b0ea36",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_speaker",
     "eventList": [
         {
-            "id": "82b21767-9d7e-4461-bfd2-81ea116b39fc",
+            "id": "c007eedb-a2e5-4bea-9784-ed828e84d8f9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 10,
             "eventtype": 7,
-            "m_owner": "dc4024de-c3da-4fe4-96d3-769dafd07e0b"
+            "m_owner": "8de9f6b6-28ed-43c9-a86d-2a9672b0ea36"
+        },
+        {
+            "id": "be476eaf-c5cf-4dd5-a9ed-83f1d63667a9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "8de9f6b6-28ed-43c9-a86d-2a9672b0ea36"
+        },
+        {
+            "id": "36a46d2e-1b60-48be-9dd0-dea6094babeb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 7,
+            "m_owner": "8de9f6b6-28ed-43c9-a86d-2a9672b0ea36"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "c84b03ad-a254-4529-bd53-155b55c27d8b",
+            "id": "096ab549-81c2-4c41-9aa5-5d076f3e941d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -45,6 +65,20 @@
             "value": "0",
             "varName": "dialogue",
             "varType": 2
+        },
+        {
+            "id": "cd2eed0f-0117-4ad1-b399-21a06012052c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "exclamation",
+            "varType": 0
         }
     ],
     "solid": false,

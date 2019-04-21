@@ -9,7 +9,7 @@ ds_list_add(storyLines, "You must find the second key atop the mountain to the e
 ds_list_add(storyLines, "Now that you have both keys, you can enter the tomb and defeat the sorcerer. If I am correct, this will reverse the curse and allow our world to slowly heal. The tomb is at the end of the path through the sand. This will be a difficult fight, so ensure that you are ready before departing. We are all counting on you.");
 ds_list_add(storyLines, "Now that you have both keys, you can enter the tomb and defeat the sorcerer. The tomb is at the end of the path through the sand. We are all counting on you.");
 ds_list_add(storyLines, "You have defeated the sorcerer, and already life is returning to the land. In time, Springwood will be green once again. Congratulations, hero.");
-
+ds_list_add(storyLines, "In time, Springwood will be green once again. Congratulations, hero.");
 if(global.mainQuestStage == stage_Tutorial){
 	global.mainQuestStage++;
 }

@@ -17,6 +17,8 @@
 #macro stage_PreBoss 6
 //stage 7: player has completed the boss level
 #macro stage_PostBoss 7
+//stage 8: player has been thanked by the elder
+#macro stage_endgame 8
 
 //sidequest:
 //stage 0: player has not started side quest
@@ -25,6 +27,8 @@
 #macro sidestage_Started 1
 //stage 2: player has completed side quest
 #macro sidestage_Completed 2
+//stage 3: player has been thanked by the cat owner
+#macro sidestage_thanked 3
 
 global.mainQuestStage = stage_Tutorial;
 global.sideQuestStage = sidestage_NotStarted;

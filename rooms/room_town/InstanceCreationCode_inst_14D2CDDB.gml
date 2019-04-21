@@ -1,0 +1,1 @@
+dialogue = "Welcome to Springwood!";

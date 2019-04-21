@@ -1,0 +1,1 @@
+dialogue = "Portals will take you to different parts of the world. This portal leads to the village of Springwood.";

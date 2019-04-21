@@ -1,0 +1,1 @@
+dialogue = "Thank you for saving me from the bat! Defeating enemies grants you XP. If an enemy injures you, you can return to the town in order to heal.";

@@ -1,0 +1,1 @@
+dialogue = "This land is full of many dangerous creatures such as bats. Use your cursor to aim at them, then attack with the left and right mouse buttons.";

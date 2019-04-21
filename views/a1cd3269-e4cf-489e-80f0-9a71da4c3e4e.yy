@@ -6,7 +6,8 @@
     "children": [
         "6d478959-dce2-4ba8-90a6-22dc8510da7e",
         "b243d03d-c621-43fa-95fd-abf1505b6163",
-        "ea706f11-67f5-4241-9f4d-d38baa6fab40"
+        "ea706f11-67f5-4241-9f4d-d38baa6fab40",
+        "32f9b153-93e7-44f3-8b78-2b11ab003415"
     ],
     "filterType": "GMSprite",
     "folderName": "Dialogue Sprites",
