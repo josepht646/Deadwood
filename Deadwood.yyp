@@ -1098,7 +1098,7 @@
             "Key": "bd0b5bbd-18d9-4cd0-8f19-daf84ed9f82d",
             "Value": {
                 "id": "856ad66e-97f7-4689-bca0-fd9f95d97279",
-                "resourcePath": "objects\\dialogueInitializer\\dialogueInitializer.yy",
+                "resourcePath": "objects\\obj_dialogueInitializer\\obj_dialogueInitializer.yy",
                 "resourceType": "GMObject"
             }
         },

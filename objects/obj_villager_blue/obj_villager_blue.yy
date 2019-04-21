@@ -65,6 +65,20 @@
             "value": "0",
             "varName": "playerCollide",
             "varType": 3
+        },
+        {
+            "id": "56a957be-bdd3-44fe-9157-388140d2014b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "villagerID",
+            "varType": 0
         }
     ],
     "solid": false,

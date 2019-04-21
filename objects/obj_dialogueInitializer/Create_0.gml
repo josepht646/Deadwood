@@ -32,3 +32,5 @@
 
 global.mainQuestStage = stage_Tutorial;
 global.sideQuestStage = sidestage_NotStarted;
+
+villagersSpokenTo = ds_list_create();
