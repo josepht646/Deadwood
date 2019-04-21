@@ -178,6 +178,9 @@ if (phase == 9) {
 		if (global.mainQuestStage == stage_PreBoss) {
 			global.mainQuestStage++;
 		}
+		objPlayer.x = 2912;
+		objPlayer.y = 2304;
+		room = room_town;
 	}
 	
 	if (can_attack) {

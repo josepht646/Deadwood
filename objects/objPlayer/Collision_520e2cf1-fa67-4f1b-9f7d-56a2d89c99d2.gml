@@ -6,6 +6,3 @@ if(obj_characterInfo.hp < 2 && room != deathRoom){
 	previousRoom = room;
 	room_goto(deathRoom);
 }
-if (image_index == spr_branch) {
-	instance_destroy(other);	
-}

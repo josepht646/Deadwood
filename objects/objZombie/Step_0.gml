@@ -5,25 +5,37 @@ if (room != room_boss) {
 			if(!audio_is_playing(zombieSnarls)){
 				audio_play_sound(zombieSnarls, 1, true);
 			}
-			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+			if (room = room_level_2) {
+				mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
+			} else {
+				mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+			}
 		} else {
 			if (healthValue < maxHealthValue) {
 				image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
 				if(!audio_is_playing(zombieSnarls)){
 					audio_play_sound(zombieSnarls, 1, true);
 				}
-				mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+				if (room = room_level_2) {
+					mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
+				} else {
+					mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+				}
 			}
 		}
 	} else {
-		if (movement == true) {
-			playerdirection = point_direction(x,y,objPlayer.x,objPlayer.y)
-		    direction = playerdirection+180
-		}
+		playerdirection = point_direction(x,y,objPlayer.x,objPlayer.y)
+		direction = playerdirection+180
+		speed = 1;
+
 	}
 } else {
 	image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
-	mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+	if (room = room_level_2) {
+		mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
+	} else {
+		mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+	}
 }
 
 if (healthValue <= 0) {

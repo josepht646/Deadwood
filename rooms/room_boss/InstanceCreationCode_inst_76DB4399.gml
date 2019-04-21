@@ -1,1 +1,1 @@
-image_index = spr_brick;
+sprite_index = spr_brick;

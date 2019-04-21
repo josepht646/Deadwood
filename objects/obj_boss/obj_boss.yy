@@ -5,13 +5,13 @@
     "name": "obj_boss",
     "eventList": [
         {
-            "id": "5b36b9c3-0559-4a12-89b4-1c3bfe75314a",
+            "id": "04aaaa4c-4bae-465e-a819-2f8123b35e26",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 0,
             "m_owner": "0cebcde9-8f26-4664-8f3a-173be3ee1438"
         }
     ],
