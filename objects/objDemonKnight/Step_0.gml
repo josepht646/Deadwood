@@ -17,9 +17,9 @@ if (room != room_boss) {
 	if (movement == true) {
 		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
 		if (room = room_level_2) {
-			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
+			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed+0.5,obj_sand);	
 		} else {
-			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed+0.5,obj_deadTree);
 		}
 	} else {
 		playerdirection = point_direction(x,y,objPlayer.x,objPlayer.y)

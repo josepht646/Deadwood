@@ -105,6 +105,7 @@ if (phase == 5) {
 		can_attack = false;
 		alarm[1] = 100;
 		
+		instance_create_layer(1550, 650, "Instances", obj_boss_animation);
 		instance_create_layer(obj_boss.x, obj_boss.y, "Instances", obj_boss_animation);
 	}
 	
@@ -163,6 +164,8 @@ if (phase == 8) {
 		can_attack = false;
 		alarm[1] = 50;
 		
+		instance_create_layer(1550, 2500, "Instances", obj_boss_animation);
+		instance_create_layer(1550, 650, "Instances", obj_boss_animation);
 		instance_create_layer(obj_boss.x, obj_boss.y, "Instances", obj_boss_animation);
 	}
 	

@@ -14,7 +14,7 @@ if (room != room_boss) {
 	}
 } else {
 	image_angle = point_direction(x,y,objPlayer.x,objPlayer.y) - 90;
-	mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed,obj_portal);
+	mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed+0.5,obj_portal);
 }
 
 if (healthValue <= 0) {
