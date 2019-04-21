@@ -20,7 +20,7 @@ if (room != room_boss) {
 }
 
 
-if(text != "" && textTimer = 0 && !textPaused){
+if(text != "" && textTimer == 0 && !textPaused){
 	textTimer = displayTime;
 	event_user(1);
 	lineDisplayCycles = ceil(ds_list_size(lines)/lineDisplayLimit);
