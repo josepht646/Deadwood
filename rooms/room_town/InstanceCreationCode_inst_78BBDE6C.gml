@@ -1,1 +1,1 @@
-unlockPhase = stage_PreLevel2;
+unlockPhase = stage_PreBoss;

@@ -10,4 +10,4 @@ else{
 	objPlayer.x = 2800;
 	objPlayer.y = 2400;
 }
-obj_characterInfo.hp = 100;
+obj_characterInfo.hp = obj_characterInfo.hpLvl;

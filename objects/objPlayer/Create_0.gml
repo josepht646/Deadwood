@@ -31,3 +31,4 @@ if (obj_characterInfo.character == 3) {
 
 previousRoom = room;
 counter = 0;
+counter2 = 0;

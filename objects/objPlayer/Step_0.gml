@@ -21,13 +21,13 @@ if (keyboard_check(ord("S")) || keyboard_check(vk_down)) {
 	y+=spd;
 	sprite_set_speed(sprite_index,15,spritespeed_framespersecond);
 }
-
 //Have character follow mouse
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 //Have character fight
 if (fighting == 0 && mouse_check_button_pressed(mb_left) && weapon == 1) {
 	if (obj_characterInfo.character == 1) {
+		audio_play_sound(crossbowFire,1, false);
 		fighting = 1;
 		sprite_index = sprArcherWCBR;
 		alarm_set(0,obj_characterInfo.attackDelay);
@@ -40,6 +40,7 @@ if (fighting == 0 && mouse_check_button_pressed(mb_left) && weapon == 1) {
 		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimation);
 	}
 	if (obj_characterInfo.character == 2) {
+		audio_play_sound(swordSwing,1, false);
 		fighting = 1;
 		sprite_index = sprKnight
 		alarm_set(0,obj_characterInfo.attackDelay);
@@ -52,6 +53,7 @@ if (fighting == 0 && mouse_check_button_pressed(mb_left) && weapon == 1) {
 		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimation);
 	}
 	if (obj_characterInfo.character == 3) {
+		audio_play_sound(wizardSpell,1,false);
 		fighting = 1;
 		alarm_set(0,obj_characterInfo.attackDelay);
 		var delta_x = 50; //70
@@ -67,6 +69,7 @@ if (fighting == 0 && mouse_check_button_pressed(mb_left) && weapon == 1) {
 //Have character fight
 if (fighting == 0 && mouse_check_button_pressed(mb_right) && weapon == 1) {
 	if (obj_characterInfo.character == 1) {
+		audio_play_sound(swordSwing,1, false);
 		fighting = 1;
 		sprite_index = sprArcher;
 		alarm_set(0,obj_characterInfo.attackDelay);
@@ -79,6 +82,7 @@ if (fighting == 0 && mouse_check_button_pressed(mb_right) && weapon == 1) {
 		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimationSec);
 	}
 	if (obj_characterInfo.character == 2) {
+		audio_play_sound(swordSwing,1, false);
 		fighting = 1;
 		sprite_index = sprKnight
 		alarm_set(0,obj_characterInfo.attackDelay);
@@ -91,6 +95,7 @@ if (fighting == 0 && mouse_check_button_pressed(mb_right) && weapon == 1) {
 		instance_create_layer(xpos,ypos,"Instances",obj_weaponAnimationSec);
 	}
 	if (obj_characterInfo.character == 3) {
+		audio_play_sound(wizardKnockBack,1,false);
 		fighting = 1;
 		alarm_set(0,obj_characterInfo.attackDelay);
 		var delta_x = 30;
@@ -110,6 +115,15 @@ if (keyboard_check_pressed(ord("N"))) {
 if (keyboard_check_pressed(ord("M"))) {
 	global.mainQuestStage++;
 }
+//Health regeneration when in town
+if(room == room_town and obj_characterInfo.hp<obj_characterInfo.hpLvl){
+	counter2++;
+	if(counter2 > 50){
+		obj_characterInfo.hp++;
+		counter2 = 0;
+	}
+}
+	
 
 //Increment counter for enemy attacks
 counter++;

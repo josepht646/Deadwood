@@ -2,6 +2,9 @@ if (room != room_boss) {
 	if (movement == true) {
 		if (sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) < 500 && sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) > 64) {
 			image_angle = point_direction(x,y,objPlayer.x,objPlayer.y) - 90;
+			if(!audio_is_playing(batSnarl)){
+				audio_play_sound(batSnarl, 1, true);
+			}
 			mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed,obj_deadTree);
 		}
 	} else {
@@ -19,5 +22,6 @@ if (healthValue <= 0) {
 	if (room == room_boss) {
 		obj_boss_fight.num_hits++;
 	}
+	audio_stop_sound(batSnarl);
 	instance_destroy();
 }

@@ -16,6 +16,8 @@ if (room != room_boss) {
 
 if (healthValue <= 0) {
 	obj_characterInfo.xp+=50;
-	
+	if (room == room_boss) {
+		obj_boss_fight.num_hits++;
+	}
 	instance_destroy();
 }

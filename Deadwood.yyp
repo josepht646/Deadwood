@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1e2b41af-00f4-4139-9770-156e5fda661e",
+            "Value": {
+                "id": "7804b244-8690-4899-bcd0-c23b3efdab6f",
+                "resourcePath": "sounds\\wizardSpell\\wizardSpell.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1fd6eef7-5350-4f63-b22b-fc4234924c55",
             "Value": {
                 "id": "cae55dac-b8cc-40d9-ae7e-69d044574ece",
@@ -260,6 +268,14 @@
                 "id": "d8fa77b5-f59f-4f70-ac05-f963be7d314c",
                 "resourcePath": "objects\\obj_characterInfo\\obj_characterInfo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3100361a-2847-463e-b3c3-870ed3087b7a",
+            "Value": {
+                "id": "72b2cdfb-9f31-4230-9b5a-d7863041214e",
+                "resourcePath": "sounds\\deathScream\\deathScream.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -439,6 +455,14 @@
             }
         },
         {
+            "Key": "54be5a28-067f-4dce-a5ef-5173b31c5a02",
+            "Value": {
+                "id": "02657ca1-394f-498e-9487-9cb931df63b2",
+                "resourcePath": "sounds\\crossbowFire\\crossbowFire.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "55f0f71a-bf4b-4817-b444-138f1d2c8a93",
             "Value": {
                 "id": "21862ba6-a0a1-4d91-b904-6c22820d0a36",
@@ -516,6 +540,14 @@
                 "id": "635449b3-f4e2-449d-91cf-3403c8e3f7d7",
                 "resourcePath": "objects\\obj_sign_tutorial2\\obj_sign_tutorial2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "663c1cfe-26e0-48d6-b3eb-f030b9966af1",
+            "Value": {
+                "id": "b61ec76e-cc64-4f21-bf83-7ea01fc5f414",
+                "resourcePath": "sounds\\enemyHit\\enemyHit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -703,6 +735,14 @@
             }
         },
         {
+            "Key": "89eeb8bf-5fea-4eb0-8e8c-a43bb14274a1",
+            "Value": {
+                "id": "810a7132-95d3-477d-999d-e2743fd1b7ad",
+                "resourcePath": "sounds\\playerDamage\\playerDamage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8c7f6fc6-3b46-482f-ac9b-6f8856da6da4",
             "Value": {
                 "id": "03e97c2e-7ee9-4352-a29c-a754d919f4e9",
@@ -732,6 +772,14 @@
                 "id": "7169dd6c-097f-4c2d-9a07-1fa0e6aae031",
                 "resourcePath": "rooms\\room_level_2\\room_level_2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8e407c76-0f96-4263-a9cd-6c6134adcf25",
+            "Value": {
+                "id": "a975def2-d465-41c6-a5be-de5d8aa0b143",
+                "resourcePath": "sounds\\batSnarl\\batSnarl.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -772,6 +820,14 @@
                 "id": "0f6b3b83-5dbb-4172-b724-36fd3b4f064e",
                 "resourcePath": "sprites\\sprWizard\\sprWizard.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95b946d8-69b9-4386-a2b9-a20f3c2e8521",
+            "Value": {
+                "id": "758ca78c-c267-453a-8bbe-8c9baa1829dd",
+                "resourcePath": "sounds\\wizardKnockBack\\wizardKnockBack.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -903,19 +959,19 @@
             }
         },
         {
-            "Key": "af154273-d0ce-452d-91e5-69c961a684e6",
-            "Value": {
-                "id": "a98cb96c-92bc-47e9-9978-7e0d2365d802",
-                "resourcePath": "sprites\\spr_Potion\\spr_Potion.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b243d03d-c621-43fa-95fd-abf1505b6163",
             "Value": {
                 "id": "08a44384-effc-4bab-af52-8deb847d9df7",
                 "resourcePath": "sprites\\spr_sign\\spr_sign.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4a35a57-b836-43d2-a898-a78d26280999",
+            "Value": {
+                "id": "b4097786-813c-4ef5-ac47-7d0b8e7be3f9",
+                "resourcePath": "sounds\\enemyImpact\\enemyImpact.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -943,6 +999,22 @@
             }
         },
         {
+            "Key": "b97e7343-f6bd-4322-9edf-084b5f822962",
+            "Value": {
+                "id": "e5a15009-bad1-4b2d-a404-fc011bb0dcfc",
+                "resourcePath": "sounds\\zombieSnarls\\zombieSnarls.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ba2cac41-383d-491a-b6ac-ac74f40755ae",
+            "Value": {
+                "id": "c423f97e-b133-4a37-93fd-be72293b79cd",
+                "resourcePath": "sounds\\enemyImpact2\\enemyImpact2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bca7ebdd-03ec-438d-bb25-9fa9c87e17bd",
             "Value": {
                 "id": "4ddba06f-c7a9-4412-b78b-136df9ebe480",
@@ -956,6 +1028,14 @@
                 "id": "856ad66e-97f7-4689-bca0-fd9f95d97279",
                 "resourcePath": "objects\\dialogueInitializer\\dialogueInitializer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bd406d97-ab0e-4b93-8d45-7558cb38a5ff",
+            "Value": {
+                "id": "eabd0675-bd48-44c5-aa98-04b09e69dd6e",
+                "resourcePath": "sounds\\footsteps\\footsteps.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -980,6 +1060,14 @@
                 "id": "2d0984bc-8e60-413f-aec0-cbd74504288f",
                 "resourcePath": "objects\\obj_dirt\\obj_dirt.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c283d3b6-1482-453e-b97f-382fa66366a0",
+            "Value": {
+                "id": "3aa8bdc5-29f3-456e-922a-a49e390a412d",
+                "resourcePath": "sounds\\swordSwing\\swordSwing.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1228,14 +1316,6 @@
                 "id": "af5798b2-6d0c-4a95-8f29-20fc693a2057",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f5ae72f9-5e0e-49ee-a87d-dd76541f0334",
-            "Value": {
-                "id": "0821d0a0-67d2-4c24-ad4d-20ea902415b8",
-                "resourcePath": "sprites\\spr_Gold\\spr_Gold.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

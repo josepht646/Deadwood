@@ -1,4 +1,5 @@
 if (counter > 64) {
+	audio_play_sound(playerDamage,1,false);
 	obj_characterInfo.hp = obj_characterInfo.hp - 50;
 	counter = 0;
 }
