@@ -6,12 +6,19 @@ if (room != room_boss) {
 				audio_play_sound(zombieSnarls, 1, true);
 			}
 			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+		} else {
+			if (healthValue < maxHealthValue) {
+				image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+				if(!audio_is_playing(zombieSnarls)){
+					audio_play_sound(zombieSnarls, 1, true);
+				}
+				mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+			}
 		}
 	} else {
 		if (movement == true) {
 			playerdirection = point_direction(x,y,objPlayer.x,objPlayer.y)
 		    direction = playerdirection+180
-			speed = 1;
 		}
 	}
 } else {
@@ -26,14 +33,4 @@ if (healthValue <= 0) {
 		obj_boss_fight.num_hits++;
 	}
 	instance_destroy();
-}
-
-if (healthValue < maxHealthValue) {
-	if (movement == true) {
-		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
-		if(!audio_is_playing(zombieSnarls)){
-			audio_play_sound(zombieSnarls, 1, true);
-		}
-		mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
-	}
 }

@@ -16,3 +16,12 @@ if (healthValue <= 0) {
 	
 	instance_destroy();
 }
+
+if (healthValue < maxHealthValue) {
+	if (movement == true) {
+		if (!(sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) < 550 && sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) > 64)) {
+			image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+			mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_deadTree);
+		}
+	}
+}

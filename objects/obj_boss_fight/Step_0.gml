@@ -174,6 +174,10 @@ if (phase == 9) {
 		phase++;
 		num_hits = 0;
 		instance_destroy(objDemonKnight);
+		instance_destroy(obj_boss);
+		if (global.mainQuestStage == stage_PreBoss) {
+			global.mainQuestStage++;
+		}
 	}
 	
 	if (can_attack) {
