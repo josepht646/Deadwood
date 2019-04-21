@@ -5,7 +5,7 @@ if (room != room_boss) {
 			if(!audio_is_playing(batSnarl)){
 				audio_play_sound(batSnarl, 1, true);
 			}
-			mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed,obj_deadTree);
+			mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed,obj_portal);
 		}
 	} else {
 		playerdirection = point_direction(x,y,objPlayer.x,objPlayer.y)
@@ -14,7 +14,7 @@ if (room != room_boss) {
 	}
 } else {
 	image_angle = point_direction(x,y,objPlayer.x,objPlayer.y) - 90;
-	mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed,obj_deadTree);
+	mp_potential_step_object(objPlayer.x,objPlayer.y,batSpeed,obj_portal);
 }
 
 if (healthValue <= 0) {
