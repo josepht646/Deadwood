@@ -1,2 +1,2 @@
 obj_menu.player_created = false;
-obj_characterInfo.hp = 100;
+obj_characterInfo.hp = obj_characterInfo.hpLvl;
