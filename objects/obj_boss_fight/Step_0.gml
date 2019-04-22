@@ -184,6 +184,8 @@ if (phase == 9) {
 		objPlayer.x = 2912;
 		objPlayer.y = 2304;
 		room = room_town;
+		audio_stop_sound(bossFightTheme);
+		audio_play_sound(endGameTheme,1,true);
 	}
 	
 	if (can_attack) {

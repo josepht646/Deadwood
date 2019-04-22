@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "1f914300-6b31-45fc-9c26-192047d84fdb",
+            "Value": {
+                "id": "514384d0-382c-4dc6-b9dd-a0be350cf5ae",
+                "resourcePath": "sounds\\bossFightTheme\\bossFightTheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "212218f6-c785-4ad0-981e-86401a94fba5",
             "Value": {
                 "id": "e841ba57-4fd5-4df9-8bc2-7ef2f409e831",
@@ -1212,6 +1220,14 @@
                 "id": "bb350a15-be72-4906-87de-0c88021cfbd3",
                 "resourcePath": "sprites\\sprArcherWCBD\\sprArcherWCBD.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e34e6845-f0b9-450d-beb3-e6aff1944a78",
+            "Value": {
+                "id": "190a112a-1e63-4b9c-bc3a-ee090f56b30e",
+                "resourcePath": "sounds\\endGameTheme\\endGameTheme.yy",
+                "resourceType": "GMSound"
             }
         },
         {
