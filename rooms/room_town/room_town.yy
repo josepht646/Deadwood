@@ -2,7 +2,7 @@
 {
     "name": "room_town",
     "id": "3789c63c-c459-445b-853d-b0a38fcf144d",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

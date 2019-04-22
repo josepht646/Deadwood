@@ -7,5 +7,5 @@ ds_list_add(storyLines, "You've saved my cat! Truly you are a great hero.");
 ds_list_add(storyLines, "You've saved my cat! Truly you are a great hero.");
 
 if(global.sideQuestStage >= sidestage_Completed){
-	instance_create_layer(x, y + 128, "Instances", obj_found_cat);
+	instance_create_layer(3328, 2272, "Instances", obj_found_cat);
 }

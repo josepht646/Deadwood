@@ -3,7 +3,7 @@ if (room != room_boss) {
 		if (sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) < 550 && sqrt(power((objPlayer.y - y),2) + power((objPlayer.x-x),2)) > 64) {
 			image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
 			if(!audio_is_playing(zombieSnarls)){
-				audio_play_sound(zombieSnarls, 1, true);
+				audio_play_sound(zombieSnarls, 1, false);
 			}
 			if (room = room_level_2) {
 				mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
@@ -14,7 +14,7 @@ if (room != room_boss) {
 			if (healthValue < maxHealthValue) {
 				image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
 				if(!audio_is_playing(zombieSnarls)){
-					audio_play_sound(zombieSnarls, 1, true);
+					audio_play_sound(zombieSnarls, 1, false);
 				}
 				if (room = room_level_2) {
 					mp_potential_step_object(objPlayer.x,objPlayer.y,enemySpeed,obj_sand);	
